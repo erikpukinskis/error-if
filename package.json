@@ -1,6 +1,6 @@
 {
   "name": "error-if",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Double check things are as they should be",
   "main": "error-if.js",
   "dependencies": {
