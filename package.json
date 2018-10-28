@@ -1,6 +1,6 @@
 {
   "name": "fail-if",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Double check things are as they should be",
   "main": "fail-if.js",
   "dependencies": {
