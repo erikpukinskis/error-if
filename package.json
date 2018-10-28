@@ -1,0 +1,13 @@
+{
+  "name": "make-sure",
+  "version": "0.0.0",
+  "description": "Double check things are as they should be",
+  "main": "make-sure.js",
+  "dependencies": {
+    "module-library": "*",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikpukinskis/make-sure.git"
+  }
+}
