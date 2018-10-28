@@ -6,10 +6,10 @@ module.exports = library.export(
 
     return {
       regexNotFound: regexNotFound,
-      notEnoughMatches: notEnoughMatches,
+      notOnEnoughLines: notOnEnoughLines,
     }
 
-    function notEnoughMatches(string, search, minimum) {
+    function notOnEnoughLines(string, search, minimum) {
       var count = 0
       string.split("/n").forEach(function(line) {
         if (line.match(search)) {

@@ -15,12 +15,12 @@ errorIf.regexNotFound(
 
 // won't throw an error because the string is in there
 
-errorIf.notEnoughMatches(
-  "booboo",
+errorIf.notOnEnoughLines(
+  "boo\nboo\nfroo\nglue\n",
   /boo/,
   3)
 
-// will error out because the string is only found twice
+// will error out because the string is only found on two of the four lines.
 ```
 
 ### Repackaging
