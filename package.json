@@ -1,13 +1,13 @@
 {
-  "name": "fail-if",
+  "name": "error-if",
   "version": "0.1.0",
   "description": "Double check things are as they should be",
-  "main": "fail-if.js",
+  "main": "error-if.js",
   "dependencies": {
     "module-library": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikpukinskis/fail-if.git"
+    "url": "https://github.com/erikpukinskis/error-if.git"
   }
 }

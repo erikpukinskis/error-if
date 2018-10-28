@@ -1,7 +1,7 @@
 var library = require("module-library")(require)
 
 module.exports = library.export(
-  "make-sure",
+  "error-if",
   function() {
 
     return {
