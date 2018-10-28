@@ -4,7 +4,7 @@
   "description": "Double check things are as they should be",
   "main": "make-sure.js",
   "dependencies": {
-    "module-library": "*",
+    "module-library": "*"
   },
   "repository": {
     "type": "git",
