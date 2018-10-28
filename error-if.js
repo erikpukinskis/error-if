@@ -2,7 +2,7 @@ var library = require("module-library")(require)
 
 module.exports = library.export(
   "error-if",
-  function() {
+  function generateSingleton() {
 
     return {
       regexNotFound: regexNotFound,
