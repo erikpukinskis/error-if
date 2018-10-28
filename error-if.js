@@ -5,11 +5,11 @@ module.exports = library.export(
   function() {
 
     return {
-      stringMatches: stringMatches,
-      stringMatchesEnoughTimes: stringMatchesEnoughTimes,
+      regexNotFound: regexNotFound,
+      notEnoughMatches: notEnoughMatches,
     }
 
-    function stringMatchesEnoughTimes(string, search, minimum) {
+    function notEnoughMatches(string, search, minimum) {
       var count = 0
       string.split("/n").forEach(function(line) {
         if (line.match(search)) {
@@ -39,7 +39,7 @@ module.exports = library.export(
       }
     }
 
-    function stringMatches(string, search) {
+    function regexNotFound(string, search) {
       if (!string.match(search)) {
         throw new Error("Expected string "+summarize(string)+" to match "+search)
       }
